@@ -1,5 +1,3 @@
-# Ignore images (too large for GitHub, handled by Vercel)
-public/images
 
 # Node dependencies
 node_modules/
