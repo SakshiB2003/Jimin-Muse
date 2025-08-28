@@ -1,7 +1,0 @@
-# Don't exclude images; we want Vercel to upload them
-node_modules
-*.log
-.git
-.gitignore
-.DS_Store
-Thumbs.db
