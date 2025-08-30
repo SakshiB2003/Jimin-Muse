@@ -18,7 +18,7 @@ It mirrors the aesthetics of the official BigHit/Hybe discography pages, featuri
 ---
 
 ## 🚀 Live Demo
-👉 **[Click here to view the live site](https://jimin-muse.vercel.app/)**  
+👉 **[![Deployed on Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?logo=vercel&logoColor=white)](https://jimin-muse.vercel.app/)**
 
 ---
 
