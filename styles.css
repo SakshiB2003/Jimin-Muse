@@ -166,7 +166,7 @@ ul li {
 }
 
 .swiper {
-    width 20px;
+    width : 100%;
 }
 
 .swiper .swiper-button-prev, .swiper .swiper-button-next {
@@ -186,7 +186,7 @@ ul li {
     
 }
 
-.swiper .swiper-slide img {
+.swiper .swiper-wrapper .swiper-slide img {
     max-width: 50vw;
 }
 .section-title {
@@ -251,7 +251,7 @@ ul li {
 }
 
 .muse-text .title img{
-    width: 15%;
+    max-width: 100%;
 }
 
 .bottom-text {
@@ -296,13 +296,159 @@ footer {
 }
 
 @media screen and (max-width: 768px) {
-    .muse .album-detail {
-        padding: 12.5vw 0 15.459vw;
-    }
     
+    header {
+        width: 100%;
+        height: 12.5vw;
+    }
+
     main {
         height: 100%;
     }
+
+    .muse .album-detail {
+        padding: 12.5vw 0 15.459vw;
+    }
+
+    .album-detail {
+        padding: 29.16vw 0 27.8vw;
+    }
+
+    .muse .album-detail .description {
+        padding: 9.662vw 10.87vw;
+    }
+
+    .muse .album-detail .description .thumb {
+        max-width: 100%;
+    }
+
+    .muse .album-detail .description .text {
+        font-size: 2.415vw;
+        padding: 0;
+    }
+
+    .muse .album-detail .interaction {
+        padding: 18.662vw 0 9.662vw;
+    }
+
+    .muse .album-detail .interaction .tape-wrap {
+        display: block;
+        max-width: 100%;
+    }
+
+    .muse .album-detail .interaction .tape-wrap .tape-selected {
+        gap: 0 1.932vw;
+        transform: rotate(90deg);
+    }
+
+
+    .muse .album-detail .interaction .tape-wrap .tape-list {
+        margin-top: 15.459vw;
+        padding: 0 11.353vw;
+    }
+
+    .muse .album-detail .blooming {
+        padding: 17.391vw 0 17.15vw;
+    }
+
+    .muse .album-detail .blooming .section-title {
+        max-width: 69.599vw;
+    }
+
+    .slide-photo  {
+        max-width: 100%;
+    }
+
+    .title img{
+        flex: 0 0 50.242vw;
+        width: 50.242vw;
+    }
+
+    .muse .album-detail .concept-clip {
+        margin-top: 16.908vw;
+        padding: 0;
+        max-width: 100%;
+    }
+
+    .muse .album-detail .official-track .concept-clip {
+        padding-left: 5.314vw;
+        padding-right: 5.314vw;
+        margin-top: 4.831vw;
+    }
+
+    .muse .album-detail .official-track .title img{
+        width: 70.333vw;
+
+    }
+
+    .muse .album-detail .name-card {
+        margin-top: 15.44vw;
+    }
+
+    .muse .album-detail .name-card .name-card-img {
+        display: flex;
+        justify-content: center; 
+        align-items: center; 
+    }
+
+    .muse .album-detail .name-card .name-card-img img{
+        max-width: 69.082vw;
+    }
+
+    .muse .album-detail .serenade {
+        padding: 17.15vw 0 17.633vw;
+    }
+    
+    .muse .album-detail .serenade .section-title {
+        max-width: 68.599vw;
+    }
+
+    .muse .album-detail .serenade .concept-clip {
+        margin-top: 16.908vw;
+    }
+
+    .muse .album-detail .muse-album {
+        padding: 17.633vw 0 9.903vw;
+    }
+
+    .muse .album-detail .muse-album .section-title {
+        max-width: 50.242vw;
+        margin: 0 auto 17.391vw;
+    }
+
+    .muse .album-detail .muse-album .clip {
+        max-width: 100%;
+    }
+
+    .muse .album-detail .muse-album .muse-text img {
+        max-width: 68.599vw;
+    }
+
+    .muse .album-detail .muse-album .bottom-text {
+        max-width: 58.454vw;
+        margin-top: 35.266vw;
+    }
+
+    .muse .album-detail .bonus {
+        padding: 9.903vw 0 6.763vw;
+    }
+
+    .muse .album-detail .bonus .concept-photo {
+        max-width: 100%;   
+        padding-left: 5.314vw;
+        padding-right: 5.314vw;
+    }
+
+    .muse .album-detail .bonus .title-bt {
+        max-width: 80%;
+        margin-top: 6vw;
+    }
+
+    .muse .album-detail .bottom-symbol {
+        padding: 6.763vw 0 0;
+        max-width: 81.159vw;
+    }
+
 
 }
 
@@ -313,3 +459,4 @@ footer {
     
     
 }
+
