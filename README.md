@@ -17,6 +17,11 @@ It mirrors the aesthetics of the official BigHit/Hybe discography pages, featuri
 
 ---
 
+## 🚀 Live Demo
+👉 **[Click here to view the live site](https://jimin-muse.vercel.app/)**  
+
+---
+
 ## 🛠️ Tech Stack
 - **HTML5** for structure
 - **CSS3** for styling and responsive layouts
